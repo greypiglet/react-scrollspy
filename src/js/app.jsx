@@ -27,8 +27,8 @@ class App extends React.Component {
               items={ ['section-1', 'section-2', 'section-3'] }
               currentClassName="is-current"
               className="c-side-nav__list nav-list"
+              currentAria="location"
               style={ {fontWeight: 300} }
-              offset={ -20 }
               onUpdate={
                 (el) => {
                   console.log(el)
