@@ -16,8 +16,7 @@
     "docs": "NODE_ENV=production webpack",
     "build": "NODE_ENV=production ./node_modules/.bin/babel ./src/js/lib --out-dir ./lib",
     "test": "NODE_ENV=test ./node_modules/.bin/ava __test__/*.js --verbose",
-    "prepublish": "yarn run build",
-    "postinstall": "yarn run build"
+    "prepublish": "yarn run build"
   },
   "ava": {
     "require": [
